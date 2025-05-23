@@ -1,0 +1,112 @@
+# Python / Flask specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+htmlcov/
+
+# Virtual Environment
+venv/
+ENV/
+.env
+.venv
+.python-version
+
+# Flask stuff
+instance/
+.webassets-cache
+flask_session/
+
+# SQLAlchemy
+*.db
+*.sqlite
+
+# Project specific
+# Ignoring database files and backups
+*.bak
+*.mdf
+*.ldf
+*.ndf
+
+# Migration specific
+migrations/versions/*
+!migrations/versions/.gitkeep
+
+# Configuration
+.env
+.env.development
+.env.test
+.env.production
+config.py
+local_settings.py
+
+# Generated files
+app/static/media/*
+!app/static/media/.gitkeep
+app/static/uploads/*
+!app/static/uploads/.gitkeep
+app/generated_pdfs/*
+!app/generated_pdfs/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Testing
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Documentation builds
+docs/_build/
+docs/api/generated/
+site/
+
+# System Files
+.DS_Store
+Thumbs.db
+.directory
+*.swp
+*.swo
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+*.code-workspace
+
+# Docker volumes
+docker_data/
+postgres_data/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
