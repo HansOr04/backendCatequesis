@@ -1,0 +1,39 @@
+# ===============================================
+# DEPENDENCIAS DE PRODUCCIÓN - SISTEMA CATEQUESIS
+# ===============================================
+
+# Incluir dependencias base
+-r base.txt
+
+# Servidor WSGI
+gunicorn==21.2.0
+gevent==23.9.1
+
+# Monitoreo y logging
+sentry-sdk==1.38.0
+structlog==23.2.0
+
+# Cache en producción
+redis==5.0.1
+hiredis==2.2.3
+
+# Métricas y monitoreo
+prometheus-flask-exporter==0.23.0
+
+# Compresión
+Flask-Compress==1.13
+
+# SSL y seguridad adicional
+certifi==2023.7.22
+
+# Base de datos en producción (drivers adicionales)
+psycopg2-binary==2.9.9
+
+# Gestión de procesos
+supervisor==4.2.5
+
+# Backup y utilidades
+schedule==1.2.0
+
+# Rate limiting avanzado
+slowapi==0.1.9

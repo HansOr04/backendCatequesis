@@ -1,0 +1,51 @@
+# ===============================================
+# DEPENDENCIAS DE TESTING - SISTEMA CATEQUESIS
+# ===============================================
+
+# Incluir dependencias base
+-r base.txt
+
+# Framework de testing principal
+pytest==7.4.3
+pytest-flask==1.3.0
+pytest-mock==3.12.0
+pytest-cov==4.1.0
+pytest-html==4.1.1
+pytest-xdist==3.3.1
+
+# Fixtures y factories
+factory-boy==3.3.0
+faker==20.1.0
+
+# Testing de APIs
+requests-mock==1.11.0
+responses==0.24.1
+
+# Testing de base de datos
+pytest-postgresql==5.0.0
+testing.postgresql==1.3.0
+
+# Coverage y reportes
+coverage==7.3.2
+pytest-cov==4.1.0
+
+# Testing de performance
+pytest-benchmark==4.0.0
+
+# Mocking avanzado
+freezegun==1.2.2
+time-machine==2.13.0
+
+# Testing de emails
+pytest-mock==3.12.0
+
+# Linting para tests
+pytest-flake8==1.1.1
+pytest-mypy==0.10.3
+
+# Base de datos en memoria para tests
+sqlite3
+
+# Utilidades de testing
+parameterized==0.9.0
+nose2==0.14.0
